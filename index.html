@@ -3,113 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia de viajes</title> 
+    <title>Agencia de viajes</title>
     <link rel="stylesheet" href="proyecto1.css">
     <link rel="shortcut icon" href="favicon.png"> 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
     </style>
 </head>
+
 <body>
-    <div class="initial">
+    <span class="encabezado">
         <h1 class="title">I-travel</h1>
-        <span class="nose">
-           <a class="link2" href="#">Revista |</a>
-           <a class="link2" href="#">Consulta reservación |</a>
-           <a class="link2" href="#">Ayuda |</a>
-           <a class="link2" href="#">Iniciar sesion</a> 
-       </span>
-    </div>
-    <nav class="nav">
-        <ul class="menu">
-            <li class="item" ><a class="link"  href="/hotels">Hoteles</a></li>
-            <li class="item" ><a class="link" href="#">Vuelos</a></li>
-            <li class="item" ><a class="link" href="#">Paquetes</a></li>
-            <li class="item"><a class="link" href="#">Autos</a></li>
-            <li class="item"><a class="link" href="#">Autobuses</a></li>
-            <li class="item"><a class="link" href="#">Seguros</a></li>
-            <li class="item"><a class="link" href="#">Cruceros</a></li>
-            <li class="item"><a class="link" href="#">Traslados</a></li>
-            <li class="item"><a class="link" href="#">Tours</a></li>
-            <li class="item"><a class="link" href="#">Grupos</a></li>
-        </ul>
-    </nav>
-
-    <article class="avion">
-        <h2 class="titles">Vuelo + Hotel</h2>
-        <form class="clas">
-            <label>
-                <div class="etiqueta">
-                    ¿Donde estas?
-                    <input type="text" name="questions">
-                </div> 
-            </labe>  
-            <label>
-                <div class="etiqueta">
-                    ¿A donde vamos?     
-                    <input type="text" name="questions">
-                </div>
-            </label>
-            <label>
-                <div class="etiqueta">
-                    Ida:
-                    <input type="date">
-                </div>
-            </label>
-            <label>
-                <div class="etiqueta">
-                    Regreo:
-                    <input type="date">
-                </div>
-            </label>
-            <label>
-                <div class="etiqueta">
-                    Habitaciones:
-                    <input class="nin"type="number">
-                    </div>
-            </label>
-        </form>
-        <div>
-            <button class="buttom">Buscar hotel + vuelo</button>
-    </article >
-
-    <article class="hotel">
-        <h2 class="mim">Hotel</h2>
-        <form class="clas1">
-            <div class="etiquetas">
-                <label>
-                    <div class="etiquetas">
-                       Destino:
-                       <input type="text" name="questions">
-                    </div>
-                </label>
-                <label>
-                    <div class="etiquetas">
-                        Fecha de llegada:
-                       <input type="date">
-                    </div>
-                </label>
-                <label>
-                    <div class="etiquetas">
-                       Fecha de salida:
-                       <input type="date">
-                    </div>
-                </label>
-                <label> 
-                    <div class="etiquetas">
-                       Habitaciones:
-                       <input class="nin" type="number">
-                       <button class="button">Buscar Hotel</button>
-                    </div>
-                </label>
-            </div>    
-        </form>
-    </article>
-<!-- <article class="article">
-    <span class="cart" >
-        <img class="cartagena"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSapxCaKg6pK5wdD4XRwO1fkMZYJvD4wan5_JykC3Dtwo4H7Nez&usqp=CAU" alt="cartagena">
+        <div class="nose">
+            <a class="link" href="#">Revista | </a>
+            <a class="link" href="#">Consulta reservación |</a>
+            <a class="link" href="#">Ayuda |</a>
+            <a class="link" href="#">Iniciar sesion</a> 
+        </div>
     </span>
-</article> -->
-</body>
-</html> 
+    <div>
+        <ul class="menu">
+            <li class="item"><a class="link2" href="#">Hoteles</a></li>
+            <li class="item"><a class="link2" href="#">Vuelos</a></li>
+            <li class="item"><a class="link2" href="#">Paquetes</a></li>
+            <li class="item"><a class="link2" href="#">Autos</a></li>
+            <li class="item"><a class="link2" href="#">Autobuses</a></li>
+            <li class="item"><a class="link2" href="#">Seguros</a></li>
+            <li class="item"><a class="link2" href="#">Cruceros</a></li>
+            <li class="item"><a class="link2" href="#">Traslados</a></li>
+            <li class="item"><a class="link2" href="#">Tours</a></li>
+            <li class="item"><a class="link2" href="#">Grupos</a></li>
+        </ul>
+        <article class="cuadros">
+            <div>
+                <h2>Vuelo + Hotel</h2>
+                <form>
+                    <label>
+                        <div class="etiqueta">
+                           ¿Donde estas?
+                        <input type="text" name="questions">
+                        </div> 
+                    </label> 
+                    <label>
+                        <div class="etiqueta"> 
+                        ¿A donde vamos?     
+                       <input type="text" name="questions">
+                        </div>
+                    </label>
+                    <label>
+                        <div class="etiqueta">
+                            Ida:
+                        <input type="date">
+                       </div>
+                    </label>
+                    <label>
+                        <div class="etiqueta">
+                            Regreo:
+                           <input type="date">
+                       </div>
+                    </label>
+                    <label>
+                        <div class="etiqueta">
+                            Habitaciones:
+                            <input class="nin"type="number">
+                        </div >
+                    </label>
+                </form>
+                <button class="button">Buscar hotel + vuelo</button>
+            </div>
 
+            <div class="vuelo">
+                <h2>Hotel</h2>
+                    <form>
+                        <label>
+                            <div class="etiqueta">
+                               ¿Donde estas?
+                            <input type="text" name="questions">
+                             </div> 
+                        </label>
+                        <label>
+                            <div class="etiqueta"> 
+                            ¿A donde vamos?     
+                           <input type="text" name="questions">
+                            </div>
+                        </label>
+                        <label>
+                            <div class="etiqueta">
+                                Ida:
+                            <input type="date">
+                           </div>
+                        </label>
+                        <label>
+                            <div class="etiqueta">
+                                Regreo:
+                               <input type="date">
+                           </div>
+                        </label>
+                        <label>
+                            <div class="etiqueta">
+                                Habitaciones:
+                                <input class="nin"type="number">
+                            </div>
+                            </label>
+                    </form>
+                    <button>Buscar hotel</button>
+            </div>
+        </article>
+    
+</body>        
+</html>
